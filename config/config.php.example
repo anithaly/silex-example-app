@@ -1,0 +1,7 @@
+<?php
+$app["db.driver"] = "pdo_mysql";
+$app["db.host"] = "localhost";
+$app["db.dbname"] = "silex-example-app";
+$app["db.user"] = "root";
+$app["db.password"] = "";
+$app["db.charset"] = "utf8";

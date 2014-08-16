@@ -1,4 +1,10 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git://github.com/anithaly/silex-simpleuser.git"
+        }
+    ],
     "require": {
         "silex/silex": "~1.2",
         "twig/twig": ">=1.8,<2.0-dev",
@@ -13,7 +19,7 @@
         "symfony/console": "2.6.*@dev",
         "symfony/twig-bridge": "2.3.*",
         "doctrine/dbal": "~2.2",
-        "jasongrimes/silex-simpleuser": "~0.6.3"
+        "anithaly/silex-simpleuser": "dev-master"
     },
     "minimum-stability": "dev",
     "autoload": {

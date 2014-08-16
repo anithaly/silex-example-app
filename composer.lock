@@ -4,8 +4,57 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "29ec769cf8a4752a1fea1c363091dde7",
+    "hash": "9b68c8d694e830609778a8a9ca999636",
     "packages": [
+        {
+            "name": "anithaly/silex-simpleuser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anithaly/silex-simpleuser.git",
+                "reference": "212ab7f29cc5f181c3feb1bf1e4c2ea77c1333f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anithaly/silex-simpleuser/zipball/212ab7f29cc5f181c3feb1bf1e4c2ea77c1333f6",
+                "reference": "212ab7f29cc5f181c3feb1bf1e4c2ea77c1333f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SimpleUser": "src/"
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Grimes",
+                    "email": "jason@grimesit.com"
+                },
+                {
+                    "name": "Natalia Stanko",
+                    "email": "anithaly@gmail.com"
+                }
+            ],
+            "description": "A simple database-backed user provider for Silex, with associated services and controllers.",
+            "homepage": "http://github.com/jasongrimes/silex-simpleuser",
+            "keywords": [
+                "silex",
+                "simple user provider",
+                "user",
+                "user provider"
+            ],
+            "support": {
+                "source": "https://github.com/anithaly/silex-simpleuser/tree/master"
+            },
+            "time": "2014-08-16 17:32:29"
+        },
         {
             "name": "doctrine/annotations",
             "version": "dev-master",
@@ -293,12 +342,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "6d0b0486bd6284d0886fef22fea164f7349990fb"
+                "reference": "83f92c3f28e927917ddcb7cf214ce99c0b72004b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/6d0b0486bd6284d0886fef22fea164f7349990fb",
-                "reference": "6d0b0486bd6284d0886fef22fea164f7349990fb",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/83f92c3f28e927917ddcb7cf214ce99c0b72004b",
+                "reference": "83f92c3f28e927917ddcb7cf214ce99c0b72004b",
                 "shasum": ""
             },
             "require": {
@@ -356,7 +405,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2014-08-05 18:04:50"
+            "time": "2014-08-13 07:14:49"
         },
         {
             "name": "doctrine/inflector",
@@ -486,49 +535,6 @@
                 "parser"
             ],
             "time": "2014-06-11 23:09:27"
-        },
-        {
-            "name": "jasongrimes/silex-simpleuser",
-            "version": "0.6.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jasongrimes/silex-simpleuser.git",
-                "reference": "4142c1c10a9c522eca9aa9a34780afd0323f4c8f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jasongrimes/silex-simpleuser/zipball/4142c1c10a9c522eca9aa9a34780afd0323f4c8f",
-                "reference": "4142c1c10a9c522eca9aa9a34780afd0323f4c8f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "SimpleUser": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-2-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Jason Grimes",
-                    "email": "jason@grimesit.com"
-                }
-            ],
-            "description": "A simple database-backed user provider for Silex, with associated services and controllers.",
-            "homepage": "http://github.com/jasongrimes/silex-simpleuser",
-            "keywords": [
-                "silex",
-                "simple user provider",
-                "user",
-                "user provider"
-            ],
-            "time": "2013-04-24 04:25:30"
         },
         {
             "name": "pimple/pimple",
@@ -762,12 +768,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "0c91f3355f251dc2ac15d9f9c5e04c014c9b729e"
+                "reference": "919345e2757aa3d3aca1d1ce5a8f53f65d1990ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/0c91f3355f251dc2ac15d9f9c5e04c014c9b729e",
-                "reference": "0c91f3355f251dc2ac15d9f9c5e04c014c9b729e",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/919345e2757aa3d3aca1d1ce5a8f53f65d1990ef",
+                "reference": "919345e2757aa3d3aca1d1ce5a8f53f65d1990ef",
                 "shasum": ""
             },
             "require": {
@@ -810,7 +816,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-08-08 14:32:04"
+            "time": "2014-08-14 16:37:29"
         },
         {
             "name": "symfony/debug",
@@ -983,12 +989,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Form.git",
-                "reference": "2f0c2ff34170fde6b1c1ce00922b15d2b10784e8"
+                "reference": "fd7dd81c73d8eb24993946dcdbd72d2b49041e84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Form/zipball/2f0c2ff34170fde6b1c1ce00922b15d2b10784e8",
-                "reference": "2f0c2ff34170fde6b1c1ce00922b15d2b10784e8",
+                "url": "https://api.github.com/repos/symfony/Form/zipball/fd7dd81c73d8eb24993946dcdbd72d2b49041e84",
+                "reference": "fd7dd81c73d8eb24993946dcdbd72d2b49041e84",
                 "shasum": ""
             },
             "require": {
@@ -1038,7 +1044,7 @@
             ],
             "description": "Symfony Form Component",
             "homepage": "http://symfony.com",
-            "time": "2014-08-05 09:07:51"
+            "time": "2014-08-14 16:37:29"
         },
         {
             "name": "symfony/http-foundation",
@@ -1047,12 +1053,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "53296aa0794ebe1e3880e3f2c68fe10ddad6c3e3"
+                "reference": "2fcb28a7117e77b07a62e266ae82707513619b70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/53296aa0794ebe1e3880e3f2c68fe10ddad6c3e3",
-                "reference": "53296aa0794ebe1e3880e3f2c68fe10ddad6c3e3",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/2fcb28a7117e77b07a62e266ae82707513619b70",
+                "reference": "2fcb28a7117e77b07a62e266ae82707513619b70",
                 "shasum": ""
             },
             "require": {
@@ -1091,7 +1097,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2014-08-05 09:00:40"
+            "time": "2014-08-14 16:10:54"
         },
         {
             "name": "symfony/http-kernel",
@@ -1100,12 +1106,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "b4a977d5dc76928acf7b4b0cf4f9711ba114ffe7"
+                "reference": "c90d1811e3ed2f119de61aa63e7044cd5ca422a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/b4a977d5dc76928acf7b4b0cf4f9711ba114ffe7",
-                "reference": "b4a977d5dc76928acf7b4b0cf4f9711ba114ffe7",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/c90d1811e3ed2f119de61aa63e7044cd5ca422a7",
+                "reference": "c90d1811e3ed2f119de61aa63e7044cd5ca422a7",
                 "shasum": ""
             },
             "require": {
@@ -1113,7 +1119,7 @@
                 "psr/log": "~1.0",
                 "symfony/debug": "~2.5",
                 "symfony/event-dispatcher": "~2.5",
-                "symfony/http-foundation": "~2.4"
+                "symfony/http-foundation": "~2.5"
             },
             "require-dev": {
                 "symfony/browser-kit": "~2.2",
@@ -1162,7 +1168,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2014-08-06 08:24:10"
+            "time": "2014-08-11 09:10:42"
         },
         {
             "name": "symfony/icu",
@@ -1400,12 +1406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/PropertyAccess.git",
-                "reference": "64fbcc6a57a0b2961704aaf6d87db240218bd153"
+                "reference": "003d9e6d3161c5b4cf727abf631a68d7b2436280"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/PropertyAccess/zipball/64fbcc6a57a0b2961704aaf6d87db240218bd153",
-                "reference": "64fbcc6a57a0b2961704aaf6d87db240218bd153",
+                "url": "https://api.github.com/repos/symfony/PropertyAccess/zipball/003d9e6d3161c5b4cf727abf631a68d7b2436280",
+                "reference": "003d9e6d3161c5b4cf727abf631a68d7b2436280",
                 "shasum": ""
             },
             "require": {
@@ -1428,14 +1434,12 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony PropertyAccess Component",
@@ -1451,7 +1455,7 @@
                 "property path",
                 "reflection"
             ],
-            "time": "2014-07-09 09:06:26"
+            "time": "2014-08-14 16:37:29"
         },
         {
             "name": "symfony/routing",
@@ -1526,12 +1530,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Security.git",
-                "reference": "c9c0c03e7130db4affa4f22365189ea4e3677cf2"
+                "reference": "8ad895b224583c8951cc1a54e598f145e145c309"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Security/zipball/c9c0c03e7130db4affa4f22365189ea4e3677cf2",
-                "reference": "c9c0c03e7130db4affa4f22365189ea4e3677cf2",
+                "url": "https://api.github.com/repos/symfony/Security/zipball/8ad895b224583c8951cc1a54e598f145e145c309",
+                "reference": "8ad895b224583c8951cc1a54e598f145e145c309",
                 "shasum": ""
             },
             "require": {
@@ -1591,7 +1595,7 @@
             ],
             "description": "Symfony Security Component",
             "homepage": "http://symfony.com",
-            "time": "2014-08-05 09:07:51"
+            "time": "2014-08-14 16:37:29"
         },
         {
             "name": "symfony/translation",
@@ -1721,12 +1725,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Validator.git",
-                "reference": "03cb0083f77b1251d611ff735ac2f46ca2832918"
+                "reference": "a0b1349f74e9e4cc764baee05fba0006fb0d292d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Validator/zipball/03cb0083f77b1251d611ff735ac2f46ca2832918",
-                "reference": "03cb0083f77b1251d611ff735ac2f46ca2832918",
+                "url": "https://api.github.com/repos/symfony/Validator/zipball/a0b1349f74e9e4cc764baee05fba0006fb0d292d",
+                "reference": "a0b1349f74e9e4cc764baee05fba0006fb0d292d",
                 "shasum": ""
             },
             "require": {
@@ -1782,7 +1786,7 @@
             ],
             "description": "Symfony Validator Component",
             "homepage": "http://symfony.com",
-            "time": "2014-08-07 15:09:41"
+            "time": "2014-08-14 16:37:29"
         },
         {
             "name": "twig/twig",
@@ -1850,7 +1854,8 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "symfony/console": 20
+        "symfony/console": 20,
+        "anithaly/silex-simpleuser": 20
     },
     "platform": [
 

@@ -32,7 +32,6 @@ $app->register(new Provider\DoctrineServiceProvider(),
         )
     )
 );
-
 $app->register(new Provider\SecurityServiceProvider(), array(
     'security.firewalls' => array(
         'secured_area' => array(
